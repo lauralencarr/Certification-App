@@ -1,0 +1,126 @@
+[
+{
+    "id": 1,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Sua empresa possui vários departamentos. Cada departamento possui diversas máquinas virtuais (VMs).\nA empresa possui uma assinatura do Azure que contém um grupo de recursos chamado RG1.\nTodas as VMs estão localizadas no RG1.\nVocê deseja associar cada VM ao seu respectivo departamento. O que fazer?",
+    "options": [
+        { "id": "A", "text": "Criar grupos de gerenciamento do Azure para cada departamento." },
+        { "id": "B", "text": "Criar um grupo de recursos para cada departamento." },
+        { "id": "C", "text": "Atribuir tags às máquinas virtuais." },
+        { "id": "D", "text": "Modificar as configurações das máquinas virtuais." }
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+},
+{
+    "id": 2,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Sua empresa possui uma assinatura do Azure Active Directory (Azure AD).\nVocê deseja implementar uma política de acesso condicional do zure AD.\nA política deve ser configurada para exigir que os membros do grupo Administradores Globais usem a Autenticação Multifator e um dispositivo ingressado no Azure AD ao se conectarem ao azure AD de locais não confiáveis.\nSolução: Você acessa a página de autenticação multifator para alterar as configurações do usuário.\nA solução atende ao objetivo?",
+    "options": [
+        { "id": "A", "text": "Sim" },
+        { "id": "B", "text": "Não" }
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+},
+{
+    "id": 3,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Sua empresa possui uma assinatura do Azure Active Directory (Azure AD).\nVocê deseja implementar uma política de acesso condicional do Azure AD.\nA política deve ser configurada para exigir que os membros do grupo Administradores Globais usem a Autenticação Multifator e um dispositivo ingressado no Azure AD ao se conectarem ao Azure AD a partir de locais não confiáveis.\nA solução atende ao objetivo?",
+    "options": [
+        {"id": "A", "text": "Sim" },
+        {"id": "B", "text": "Não"}
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+},
+{
+    "id": 4,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Sua empresa possui uma assinatura do Azure Active Directory (Azure AD).\nVocê deseja implementar uma política de acesso condicional do Azure AD.\nA política deve ser configurada para exigir que os membros do grupo Administradores Globais usem a Autenticação Multifator e um dispositivo ingressado no Azure AD ao se conectarem ao Azure AD a partir de locais não confiáveis.\nSolução: você acessa o portal do Azure para alterar o controle de concessão da política de acesso condicional do Azure AD.\nA solução atende ao objetivo?",
+    "options": [
+        {"id": "A", "text": "Sim" },
+        {"id": "B", "text": "Não"}
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+},
+{
+    "id": 5,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Você está planejando implantar uma máquina virtual Ubuntu Server na assinatura do Azure da sua empresa.\nÉ necessário implementar uma implantação personalizada que inclua a adição de uma autoridade de certificação raiz (CA) confiável específica.\nQual das seguintes opções você deve usar para criar a máquina virtual?",
+    "options": [
+        {"id": "A", "text": "O cmdlet New-AzureRmVm"},
+        {"id": "B", "text": "O cmdlet New-AzVM"},
+        {"id": "C", "text": "O cmdlet Create-AzVM"},
+        {"id": "D", "text": "O comando az vm create"}
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+},
+{
+    "id": 6,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Sua empresa utiliza a Autenticação Multifator para quando os usuários não estão no escritório. A opção 'Por Autenticação' foi configurada como o modelo de uso.\nApós a aquisição de uma empresa menor e a adição de novos funcionários ao Azure Active Directory (Azure AD), você obtém uma empresa diferente e adiciona os novos funcionários ao Azure Active Directory (Azure AD), você é informado de que esses funcionários também devem utilizar a Autenticação Multifator.\nPara isso, a configuração 'Por Usuário Habilitado' deve ser definida para o modelo de uso.\nSolução: Você reconfigura o modelo de uso existente por meio do portal do Azure.\nA solução atende ao objetivo?",
+    "options": [
+        {"id": "A", "text": "Sim"},
+        {"id": "B", "text": "Não"}
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+},
+{
+    "id": 7,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "A solução Azure da sua empresa utiliza a Autenticação Multifator para quando os usuários não estão no escritório. A opção 'Por Autenticação' foi configurada como o modelo de uso.\nApós a aquisição de uma empresa menor e a adição de novos funcionários ao Azure Active Directory (Azure AD), uma empresa diferente é obtida e os novos funcionários são adicionados ao Azure Active Directory (Azure AD). Você é informado de que esses funcionários também devem utilizar a Autenticação Multifator.\nPara isso, a configuração 'Por Usuário Habilitado' deve ser definida para o modelo de uso.\nSolução: Você reconfigura o modelo de uso existente por meio da CLI do Azure.\nA solução atende ao objetivo?",
+    "options": [
+        {"id": "A", "text": "Sim"},
+        {"id": "B", "text": "Não"}
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+},
+{
+    "id": 8,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "A solução Azure da sua empresa utiliza a Autenticação Multifator para quando os usuários não estão no escritório. A opção 'Por Autenticação' foi configurada como o modelo de uso.\nApós a aquisição de uma empresa menor e a adição de novos funcionários ao Azure Active Directory (Azure AD), uma empresa diferente é obtida e os novos funcionários são adicionados ao Azure Active Directory (Azure AD), e você é informado de que esses funcionários também devem utilizar a Autenticação Multifator.\nPara isso, a configuração 'Por Usuário Habilitado' deve ser definida para o modelo de uso.\nSolução: você cria um novo provedor de Autenticação Multifator com um backup dos dados existentes do provedor de Autenticação Multifator.\nA solução atende ao objetivo?",
+    "options": [
+        {"id": "A", "text": "Sim"},
+        {"id": "B", "text": "Não"}
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+},
+{
+    "id": 9,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Sua empresa possui um locatário do Azure Active Directory (Azure AD) chamado weyland.com, configurado para coexistência híbrida com o domínio local do Active Directory.\nVocê possui um servidor chamado DirSync1, configurado como um servidor DirSync. Crie uma nova conta de usuário noive Directory local.\nAgora, você precisa replicar as informações do usuário para o Azure AD imediatamente.\nSolução: Execute o cmdlet Start-ADSyncSyncCycle -PolicyType Initial do PowerShell.\nA solução atende ao objetivo?",
+    "options": [
+        {"id": "A", "text": "Sim"},
+        {"id": "B", "text": "Não"}
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+},
+{
+    "id": 10,
+    "certification": "AZ-104",
+    "topic": "1",
+    "question": "Sua empresa possui um locatário do Azure Active Directory (Azure AD) chamado weyland.com, configurado para coexistência híbrida com o domínio local do Active Directory.\nVocê possui um servidor chamado DirSync1, configurado como um servidor DirSync.\nVocê cria uma nova conta de usuário no Active Directory local. Agora, você precisa replicar as informações do usuário para o Azure AD imediatamente.\nSolução: Você usa Sites e Serviços do Active Directory para forçar a replicação do Catálogo Global em um controlador de domínio.\nA solução atende ao objetivo?",
+    "options": [
+        {"id": "A", "text": "Sim"},
+        {"id": "B", "text": "Não"}
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+}
+]
